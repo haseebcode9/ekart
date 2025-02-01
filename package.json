@@ -2,14 +2,20 @@
   "name": "ekart",
   "version": "1.0.0",
   "description": "a backend in nodejs for practice",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "keywords": [
     "Haseebur",
     "Rahman"
   ],
   "author": "Md Haseebur Rahman",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2"
+  }
 }
